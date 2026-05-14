@@ -1,0 +1,13 @@
+{
+  "dataset": "MedQA USMLE 4-options",
+  "test_questions": 50,
+  "base_model": "mistralai/Mistral-7B-v0.1",
+  "finetuned_model": "deekshitha-urs/medical-mistral-7b-finetuned",
+  "training_examples": 500,
+  "training_epochs": 2,
+  "training_loss_start": 1.325,
+  "training_loss_end": 0.906,
+  "base_accuracy": "46%",
+  "finetuned_accuracy": "54%",
+  "improvement": "+8%"
+}
